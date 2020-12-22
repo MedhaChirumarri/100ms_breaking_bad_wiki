@@ -37,6 +37,7 @@ app.post("/",function(req,res){
           occ+=charData[i].occupation[j]+",";
       for(j in charData[i].appearance)
           app+=charData[i].appearance[j]+",";
+      const quoteUrl="https://www.breakingbadapi.com/api/quote?author="+charName.replace(" ","+");
 
       res.write("<h1>"+charName+"</h1>");
       res.write("<p>Birthday:"+birthday+"</p><br>");
