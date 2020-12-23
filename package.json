@@ -1,0 +1,22 @@
+{
+  "name": "100ms",
+  "version": "1.0.0",
+  "description": "breaking bad characters search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedhaChirumarri/100ms_breaking_bad_wiki.git"
+  },
+  "author": "Chirumarri Medha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedhaChirumarri/100ms_breaking_bad_wiki/issues"
+  },
+  "homepage": "https://github.com/MedhaChirumarri/100ms_breaking_bad_wiki#readme",
+  "engines": {
+    "node": "15.4.0"
+  }
+}
